@@ -1,4 +1,4 @@
-# SMTP Mailer library
+# SMTP mailer library
 
 SMTP mailer based on [PHPMailer](https://github.com/PHPMailer/PHPMailer) for [codeinc/mailer](https://github.com/CodeIncHQ/Mailer).
 
