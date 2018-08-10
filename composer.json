@@ -1,0 +1,34 @@
+{
+  "name": "codeinc/smtp-mailer",
+  "version": "1.0.0",
+  "description": "Code Inc.'s SMTP mailer library",
+  "homepage": "https://github.com/CodeIncHQ/SmtpMailer",
+  "type": "library",
+  "license": "proprietary",
+  "require": {
+    "php": ">=7.2",
+    "PHPMailer/PHPMailer": "^6.0",
+    "codeinc/mailer": "^2.0"
+  },
+  "require-dev": {
+    "codeinc/error-renderer": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CodeInc\\SmtpMailer\\": "src"
+    }
+  },
+  "authors": [
+    {
+      "name": "Joan Fabrégat",
+      "email": "joan@codeinc.fr",
+      "homepage": "https://www.codeinc.fr",
+      "role": "developer"
+    }
+  ],
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    }
+  }
+}
